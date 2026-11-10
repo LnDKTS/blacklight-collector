@@ -1,0 +1,151 @@
+========================================================================
+  RESUMO DA INSPEÇÃO BLACKLIGHT
+========================================================================
+Site inspecionado : wayground.com
+URL final          : https://wayground.com/?lng=pt-BR
+Início             : 2026-10-19T18:46:52.826Z
+Fim                : 2026-10-19T18:47:03.730Z
+Domínios            : 2 1ª parte, 38 3ª parte
+
+------------------------------------------------------------------------
+Escuta de eventos de comportamento  [behaviour_event_listeners]
+Scripts que registram listeners de teclado/mouse/toque para observar a interação do usuário.
+  ⚠ KEYBOARD: 9 script(s) distinto(s)
+      - cf.quizizz.com: [keydown]
+      - www.googletagmanager.com: [keyup]
+      - script.hotjar.com: [keypress]
+      - cf.quizizz.com: [keypress]
+      - cf.quizizz.com: [keydown]
+      -     at Object.apply (<anonymous>:13:42): [keydown, input]
+      - scripts.clarity.ms: [keydown, input]
+      - cdn.jsdelivr.net: [keydown]
+      - cdn.jsdelivr.net: [keydown]
+  ⚠ MOUSE: 16 script(s) distinto(s)
+      - www.googletagmanager.com: [mousedown, click]
+      - www.googletagmanager.com: [click]
+      - script.hotjar.com: [scroll, mousemove, click]
+      - cf.quizizz.com: [click]
+      - cf.quizizz.com: [click]
+      - website-translator.app.crowdin.net: [click]
+      -     at Object.apply (<anonymous>:13:42): [dblclick, mousemove, mouseup, mousedown, click, scroll]
+      - accounts.google.com: [click]
+      - scripts.clarity.ms: [dblclick, mousemove, mouseup, mousedown, click, scroll]
+      - d3e54v103j8qbb.cloudfront.net: [click, scroll]
+      - cdn.jsdelivr.net: [click]
+      - cdn.jsdelivr.net: [click, scroll]
+      - wayground.com: [click]
+      - cdn.intellimize.co: [click, scroll]
+      - cdn.prod.website-files.com: [mouseup, mousedown, scroll]
+      - cdn.prod.website-files.com: [mouseup, mousemove, mousedown]
+  ⚠ TOUCH: 6 script(s) distinto(s)
+      - /_/gsi/_/js/k=gsi.gsi.pt_BR.PUavZou_vtw.O/am=AAAAAEEABl0U/d=1/rs=AF0KOtXSMuWv2tF2mvKmVAgv43asVMdTIw/m=credential_server_library: [touchmove]
+      -     at Object.apply (<anonymous>:13:42): [touchcancel, touchmove, touchend, touchstart]
+      - scripts.clarity.ms: [touchcancel, touchmove, touchend, touchstart]
+      - cdn.jsdelivr.net: [touchcancel, touchend, touchmove, touchstart]
+      - cdn.prod.website-files.com: [touchend, touchstart, touchcancel]
+      - cdn.prod.website-files.com: [touchcancel, touchend, touchmove, touchstart]
+  ⚠ SENSOR: 1 script(s) distinto(s)
+      - d3e54v103j8qbb.cloudfront.net: [orientationchange]
+
+------------------------------------------------------------------------
+Fingerprinting via Canvas  [canvas_fingerprinters]
+Scripts que desenham no <canvas> e leem o resultado para gerar um identificador único do navegador.
+  ⚠ Atividade em: styles
+    - styles: 1 script(s)
+        • wayground.com: rgba(0,0,0,0)
+
+------------------------------------------------------------------------
+Fingerprinting de fontes via Canvas  [canvas_font_fingerprinters]
+Scripts que medem a renderização de fontes via canvas para identificar o dispositivo.
+  ✓ Nenhum fingerprinting de fontes detectado.
+
+------------------------------------------------------------------------
+Cookies  [cookies]
+Cookies definidos durante a inspeção, de primeira e terceira parte.
+  ⚠ 24 cookie(s) — 20 de 1ª parte, 4 de 3ª parte, 24 persistente(s)
+    - [3ª parte] NID (google.com, persistente)
+    - [3ª parte] MUID (bing.com, persistente)
+    - [3ª parte] MR (bat.bing.com, persistente)
+    - [3ª parte] test_cookie (doubleclick.net, persistente)
+    - [1ª parte] quizizz_uid (wayground.com, persistente)
+    - [1ª parte] requestCountry (wayground.com, persistente)
+    - [1ª parte] requestRegion (wayground.com, persistente)
+    - [1ª parte] trk-session-id (wayground.com, persistente)
+    - [1ª parte] trk-previous-page (wayground.com, persistente)
+    - [1ª parte] trk-current-page (wayground.com, persistente)
+    - [1ª parte] _hjSessionUser_5351049 (wayground.com, persistente)
+    - [1ª parte] _hjSession_5351049 (wayground.com, persistente)
+    - [1ª parte] QUIZIZZ_EXP_SLOT (wayground.com, persistente)
+    - [1ª parte] QUIZIZZ_EXP_NAME (wayground.com, persistente)
+    - [1ª parte] QUIZIZZ_EXP_LEVEL (wayground.com, persistente)
+    - [1ª parte] QUIZIZZ_EXP_VERSION (wayground.com, persistente)
+    - [1ª parte] suid (wayground.com, persistente)
+    - [1ª parte] _gcl_au (wayground.com, persistente)
+    - [1ª parte] _ga_NYFWYHHSPY (wayground.com, persistente)
+    - [1ª parte] _uetsid (wayground.com, persistente)
+    - [1ª parte] _uetvid (wayground.com, persistente)
+    - [1ª parte] _ga (wayground.com, persistente)
+    - [1ª parte] _gid (wayground.com, persistente)
+    - [1ª parte] _gat_gtag_UA_118650281_1 (wayground.com, persistente)
+
+------------------------------------------------------------------------
+Facebook Pixel  [fb_pixel_events]
+Requisições enviadas ao Facebook/Meta Pixel.
+  ✓ Nenhuma requisição detectada.
+
+------------------------------------------------------------------------
+Google Analytics  [google_analytics_events]
+Eventos enviados ao Google Analytics / Google Tag Manager.
+  ⚠ 1 requisição(ões) para 1 domínio(s) distinto(s):
+    - stats.g.doubleclick.net: 1x (via easyprivacy.txt)
+
+------------------------------------------------------------------------
+Key Logging (captura de digitação)  [key_logging]
+Campos de formulário capturados enquanto o usuário digita, antes do envio.
+  ⚠ Objeto com 1 chave(s):
+    - wayground.com: [{"filter":["IdaaaaTarbell","Tarbell","Idaaaa","IdaaaaTarbell"],"match_type":["plaintext"],"post_data":"{\"eventName\":\"auto_complete_search_text_typed\",\"eventType\":\"click\",\"page\":{\"url\":\"https://wayground.com/generators/math-problem-generator?source=top_nav_v2&ctaSource=top_nav_v2&ref=header_tab_v2&webflow_referrer=webflow&lng=pt-BR&fromPage=/&lang=en\",\"path\":\"UNKNOWN\",\"name\":\"UnknownPage\",\"params\":null},\"referrer\":{\"url\":null,\"path\":\"UNKNOWN\",\"name\":\"UnknownPage\"},\"deviceId\":\"e528d3a0-cbea-4300-a375-7c33279acbab\",\"deviceTime\":1792435621974,\"timezoneOffset\":180,\"sessionId\":\"8851e013-b4da-4afa-ab00-55cf78150b37\",\"country\":\"BR\",\"userId\":null,\"subPlanId\":null,\"locale\":\"pt-BR\",\"platform\":\"web\",\"screen\":{\"width\":393,\"height\":659,\"density\":3},\"featureFlags\":{},\"featureHash\":null,\"effectiveNetworkType\":\"4g\",\"params\":{\"searchTerm\":\"IdaaaaTarbell\",\"source\":\"AutocompleteSSR\",\"page\":\"adp-logged-out\",\"autocompleteId\":\"da2059c9-1aa5-419a-a416-075f314032d9\",\"timeTaken\":137.90000000002328,\"appName\":\"nuxt-ssr\"},\"appName\":\"nuxt-ssr\"}","post_request_url":"https://fnl.wayground.com/_anserverv2/main/api/v1/frontend","post_request_ps":"wayground.com"},{"filter":["IdaaaaTarbell","Tarbell","Idaaaa","IdaaaaTarbell"],"match_type":["plaintext"],"post_data":"{\"eventName\":\"auto_complete_search_text_typed\",\"eventType\":\"click\",\"page\":{\"url\":\"https://wayground.com/generators/math-problem-generator?source=top_nav_v2&ctaSource=top_nav_v2&ref=header_tab_v2&webflow_referrer=webflow&lng=pt-BR&fromPage=/&lang=en\",\"path\":\"UNKNOWN\",\"name\":\"UnknownPage\",\"params\":null},\"referrer\":{\"url\":null,\"path\":\"UNKNOWN\",\"name\":\"UnknownPage\"},\"deviceId\":\"e528d3a0-cbea-4300-a375-7c33279acbab\",\"deviceTime\":1792435621844,\"timezoneOffset\":180,\"sessionId\":\"8851e013-b4da-4afa-ab00-55cf78150b37\",\"country\":\"BR\",\"userId\":null,\"subPlanId\":null,\"locale\":\"pt-BR\",\"platform\":\"web\",\"screen\":{\"width\":393,\"height\":659,\"density\":3},\"featureFlags\":{},\"featureHash\":null,\"effectiveNetworkType\":\"4g\",\"params\":{\"searchTerm\":\"IdaaaaTarbell\",\"source\":\"AutocompleteSSR\",\"page\":\"adp-logged-out\",\"autocompleteId\":\"51ae0bd4-128c-47fe-bbf1-a2b642778ac6\",\"timeTaken\":142,\"appName\":\"nuxt-ssr\"},\"appName\":\"nuxt-ssr\"}","post_request_url":"https://fnl.wayground.com/_anserverv2/main/api/v1/frontend","post_request_ps":"wayground.com"},{"filter":["IdaaaaTarbell","Tarbell","Idaaaa","IdaaaaTarbell"],"match_type":["plaintext"],"post_data":"{\"searchTerm\":\"IdaaaaTarbell\"}","post_request_url":"https://wayground.com/_autocomserver/main/_autocomplete_v2","post_request_ps":"wayground.com"}]
+
+------------------------------------------------------------------------
+Gravação de sessão  [session_recorders]
+Serviços de session replay (ex: Hotjar) que gravam a sessão do usuário.
+  ⚠ 2 serviço(s) de gravação de sessão detectado(s):
+    - script.hotjar.com (1 script(s))
+    - static.hotjar.com (2 script(s))
+
+------------------------------------------------------------------------
+Rastreadores de terceiros  [third_party_trackers]
+Requisições de rede para domínios de terceiros classificados como rastreadores.
+  ⚠ 53 requisição(ões) para 21 domínio(s) distinto(s):
+    - www.googletagmanager.com: 5x (via easyprivacy.txt)
+    - static.hotjar.com: 5x (via easyprivacy.txt)
+    - bat.bing.com: 4x (via easyprivacy.txt)
+    - script.hotjar.com: 4x (via easyprivacy.txt)
+    - i.clarity.ms: 4x (via easyprivacy.txt)
+    - analytics.google.com: 3x (via easyprivacy.txt)
+    - www.google.com.br: 3x (via easylist.txt, easyprivacy.txt)
+    - log.intellimize.co: 3x (via easyprivacy.txt)
+    - api.intellimize.co: 3x (via easyprivacy.txt)
+    - www.google.com: 2x (via easylist.txt)
+    - googleads.g.doubleclick.net: 2x (via easylist.txt)
+    - c.clarity.ms: 2x (via easyprivacy.txt)
+    - scripts.clarity.ms: 2x (via easyprivacy.txt)
+    - www.clarity.ms: 2x (via easyprivacy.txt)
+    - cdn.intellimize.co: 2x (via easyprivacy.txt)
+    - t.clarity.ms: 2x (via easyprivacy.txt)
+    - o984659.ingest.us.sentry.io: 1x (via easyprivacy.txt)
+    - www.google-analytics.com: 1x (via easyprivacy.txt)
+    - ad.doubleclick.net: 1x (via easylist.txt)
+    - import-cdn.default.com: 1x (via easyprivacy.txt)
+    - c.bing.com: 1x (via easyprivacy.txt)
+
+------------------------------------------------------------------------
+TikTok Pixel  [tiktok_pixel_events]
+Requisições enviadas ao TikTok Pixel.
+  ✓ Nenhuma requisição detectada.
+
+------------------------------------------------------------------------
+Twitter/X Pixel  [twitter_pixel_events]
+Requisições enviadas ao pixel de rastreamento do X (Twitter).
+  ✓ Nenhuma requisição detectada.
+
+========================================================================

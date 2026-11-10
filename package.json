@@ -8,6 +8,7 @@
     "url": "https://themarkup.org/donate"
   },
   "scripts": {
+    "summarize": "ts-node scripts/summarize.ts",
     "clean": "rimraf build *.log",
     "commit": "npx git-cz",
     "build": "run-s clean && run-s build:main",
